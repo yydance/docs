@@ -1,0 +1,1 @@
+仅仅是shell知识，非shell脚本
