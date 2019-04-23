@@ -34,4 +34,4 @@ devpi-server --host=0.0.0.0 --stop
 devpi-server --host=0.0.0.0 --start 
 ```  
 
-通过http://127.0.0.1:3141/访问web界面
+通过 http://127.0.0.1:3141/ 访问web界面
