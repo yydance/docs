@@ -38,4 +38,13 @@ git clone https://github.com/yahoo/kafka-manager.git
 kafka-manager-2.0.0.2/sbt clean dist
 ```  
 
-未完待续
+编译完成后在`target/universal/kafka-manager-2.0.0.2.zip`生成zip包，解压后mv至`/data/app/`  
+
+**3.启动kafka-manage**  
+```
+bin/kafka-manage -Dpidfile.path=/data/pid/kafka-manage.pid -Dhttp.port=9000 -Dhttp.address=0.0.0.0
+服务在终端前台运行，可以使用supervisor管理
+```  
+> 注意修改log级别，默认info  
+
+结尾，前端使用nginx代理验证，kafka-manage支持openldap。
