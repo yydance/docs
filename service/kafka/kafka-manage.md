@@ -36,4 +36,6 @@ git clone https://github.com/yahoo/kafka-manager.git
 编译
 ```
 kafka-manager-2.0.0.2/sbt clean dist
-```
+```  
+
+未完待续
