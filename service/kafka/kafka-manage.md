@@ -43,7 +43,7 @@ kafka-manager-2.0.0.2/sbt clean dist
 **3.启动kafka-manage**  
 ```
 bin/kafka-manage -Dpidfile.path=/data/pid/kafka-manage.pid -Dhttp.port=9000 -Dhttp.address=0.0.0.0
-服务在终端前台运行，可以使用supervisor管理
+服务在终端前台运行
 ```  
 > 注意修改log级别，默认info  
 
